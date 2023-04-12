@@ -2,4 +2,3 @@ leche
 queso
 pan
 azucar
-alimento de mascotas
