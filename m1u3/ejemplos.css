@@ -1,0 +1,88 @@
+body{font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{background-color: gray;
+text-align: center;}
+
+img{-webkit-border-radius: 106px 106px 106px 106px;}
+
+.edad{-webkit-border-radius: 117px 117px 117px 117px;
+background-color: gray;}
+
+.domicilio{-webkit-border-radius: 117px 117px 117px 117px;
+background-color: gray;}
+
+.series{-webkit-border-radius: 117px 117px 117px 117px;
+    background-color: gray;
+    display: inline;
+    
+   }
+
+   .pelis{-webkit-border-radius: 117px 117px 117px 117px;
+    background-color: gray;
+    display: inline;}
+
+    .perfil{-webkit-border-radius: 117px 117px 117px 117px;
+        background-color: gray;
+        display: inline;}
+
+        .pro{text-align: center;
+            
+            font-weight: bold;
+            
+           }
+
+        .botonera1 {-webkit-border-radius: 10px 10px 00px 10px;
+            display: flex;
+           
+           }
+        
+        
+
+            
+                .contenedor{display: block;
+                font-weight: bold;}
+                
+
+
+
+                .boton a:hover {
+               color: black;
+                background-color:cadetblue;
+
+                
+                }
+                    
+                  
+                  
+                       
+                
+            
+                    
+                
+            
+	
+	
+	        
+                
+                .item{  background-color: gray;
+                  display: inline-flex;
+                  
+                  
+                    
+                    
+            
+
+                }
+
+                .sexo{display: block;
+                    
+                }
+
+                .sub{-webkit-border-radius: 117px 117px 117px 117px;
+                    background-color: gray;
+                    display: inline;}
+                
+                    .comentarios{vertical-align: top;
+                    }
+            
