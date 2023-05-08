@@ -1,0 +1,23 @@
+
+.cuadrados{
+   display: inline-flex;
+   
+
+}
+
+.rojo{background-color: red;
+height: 80px;
+width: 80px;
+margin: 10px;}
+
+.azul{
+    background-color: blue;
+height: 80px;
+width: 80px;
+margin: 10px;
+}
+
+.verde{background-color: green;
+    height: 80px;
+    width: 80px;
+    margin: 10px;}
