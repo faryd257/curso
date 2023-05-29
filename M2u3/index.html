@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muebleria</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href=".css/muebleria.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark  fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="Home" class="row align-items-center hero">
+
+            <div class="col-lg-3 offset-lg-2">
+                <p>Bajada</p>
+                <h1>titulo principal</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia minima repellat expedita! Qui hic,
+                    blanditiis maiores aliquam ratione a exercitationem enim laborum repudiandae. Et vero tenetur
+                    provident voluptatem quae. Sunt?</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row my-3">
+
+        <div id="novedades" class="col-md-5 offset-md-2 py-3">
+
+            <h2><strong>NOVEDADES</strong></h2>
+
+            <ul class="lista-novedades">
+
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/1685216047124.jpg">
+                        Diseño 1</a></li>
+
+                <li><a href="#"><img src="img/..jpg"> Diseño 2</a></li>
+
+                <li><a href="#"><img src="img/75ccadda-3e31-4a9a-95e5-10d4227581ed-600x600.jpg"> Diseño 3
+
+                <li><a href="#"><img src="img/23.jpg"> Diseño 4</a></li>
+
+                <li><a href="#"><img src="img/gagaga.jpg"> Diseño 5</a></li>
+
+
+            </ul>
+
+        </div><!--cierra novedades --><!--inicio modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">TITULO</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>subtitulo</h3>
+                        <p>cuerpo</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--FIN MODAL -->
+
+
+        <div class="col-md-3 my-3">
+            <div class="rounded py-5 testimonios">
+                <h2 class="text-center">Testimonios</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonio">
+                                    <h5>reseña1</h5>
+                                    <p>hola1</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonio">
+                                    <h5>reseña2</h5>
+                                    <p>hola2</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonio">
+                                    <h5>reseña3</h5>
+                                    <p>hola3</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <Footer>
+            <p class="text-center">Diseñado por Faryd Ortiz</p>
+
+        </Footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
